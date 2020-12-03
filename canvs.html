@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="canv.css">
+    </head>
+    <body>
+        <div class="inpdiv">
+            <form>
+       <input type="text" id="subject1" placeholder="Php" required>
+        <input type="number"  id="inp1"  min="1" max="100"  placeholder="grade" required>
+       <input type="text"  id="subject2" placeholder="css" required>
+        <input type="number"  id="inp2" min="1" max="100" placeholder="grade" required><br>
+        <input type="text" id="subject3" placeholder="js" required >
+         <input type="number"  id="inp3" min="1" max="100"  placeholder="grade" required>
+        <input type="text"  id="subject4" placeholder="java" required>
+         <input type="number"  id="inp4" min="1" max="100"  placeholder="grade" required><br>
+         <input type="button"  id="btn" value="Draw">
+ 
+           
+        </form>
+
+
+    </div>
+
+  <div style="padding: 20px; width: 70%; background-color: blueviolet; margin:20px auto; text-align: center;">
+    Bar<input type="checkbox" name="" id="draw1">
+    Line<input type="checkbox" name="" id="draw2">
+    Pie<input type="checkbox" name="" id="draw3">
+    Doug<input type="checkbox" name="" id="draw4">
+  </div>
+
+        
+          <canvas width="320" height="400" id="mycanv" ></canvas>
+          <canvas width="320" height="400" id="canv" ></canvas>
+          <canvas width="320" height="400" id="circle" ></canvas>
+          <canvas width="320" height="400" id="circle2" ></canvas>
+          <canvas id="data-color" width="250" height="250"></canvas>
+           
+
+        
+
+      
+
+          <script src="canv.js"></script>
+    </body>
+</html>

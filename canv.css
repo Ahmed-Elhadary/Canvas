@@ -1,0 +1,51 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+#mycanv ,#canv,#circle,#circle2
+{
+
+margin-top: 20px;
+    
+}
+#data-color
+{
+
+    background-color: white;
+    margin:20px 500px;
+}
+
+.inpdiv
+{
+    width: 70%;
+    border: 1px solid gray;
+    border-radius: 10%;
+    margin-left: 15%;
+    padding: 10px;
+    background: rgb(213, 216, 216);
+    text-align: center;
+}
+form{
+    padding: 20px;
+}
+input
+{
+    margin: 20px;
+    height: 30px;
+}
+
+#btn
+{
+   width: 200px;
+   height: 50px;
+   border-radius: 10px;
+   background-color: rgb(29, 31, 29);
+   color: white;
+}
+
+
+
